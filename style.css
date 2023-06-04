@@ -5,16 +5,16 @@ body{
     font-family: 'Voltaire', sans-serif;
     font-size: 16px;
     margin:0;
-    background: #f5f6f9;
+    background: #4d6d9a;
 }
 header{
-    background-color: #ffffff;
+    background-color: #4d6d9a;
     height: 65px;
     display: flex;
     align-items: center;
     padding: 5px 10px;
     justify-content: space-between;
-    box-shadow: 0px 3px 10px 0 rgba(80,119,242,0.3);
+    box-shadow: 0px 3px 10px 0 #86b3d1;
 }
 /* nav,.inputSearch{
     display: none;
@@ -24,12 +24,14 @@ nav ul{
     list-style: none;
     gap: 15px;
     padding: 0;
+    font-size: larger;
 }
 nav ul li{
     cursor: pointer;
+    color: #edb5bf  ;
 }
 nav ul li:hover{
-    color:#4361ee;
+    color:#99ced3;
 }
 
 .inputSearch,
@@ -37,10 +39,10 @@ form{
     display: flex;
     align-items: center;
     height: 40px;
-    width: 400px;
+    width: 300px;
     border-radius: 35px;
     overflow: hidden;
-    border: 1.5px solid #4361ee;
+    border: 1.5px solid #5f6366;
 }
 .inputSearch  input{
     width: 100%;
@@ -52,7 +54,7 @@ form{
 }
 .inputSearch span{
     width: 70px;
-    background-color: #4361ee;
+    background-color: #5f6366;
     height: 100%;
     display: flex;
     justify-content: center;
