@@ -1,5 +1,5 @@
-const API_KEY = ""
-const url = ""
+const API_KEY = "a3aecf8782a949858ef7a48622cc1f22"
+const url = "https://newsapi.org/v2/everything?q="
 
 
 
